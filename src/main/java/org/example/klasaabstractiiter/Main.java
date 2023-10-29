@@ -27,13 +27,13 @@ public class Main {
 
         kolo.wyswietlInformacje();
         System.out.println("");
-        System.out.println(" pole powierzchni kola: " + kolo.obliczPolePowierzchni());
+        System.out.println(" pole powierzchni kola: " + kolo1.obliczPolePowierzchni());
 
         System.out.println("");
         System.out.println("");
         kwadrat.wyswietlInformacje();
         System.out.println("");
-        System.out.println("pole powierzchni kwadrat:"  + kwadrat.obliczPolePowierzchni());
+        System.out.println("pole powierzchni kwadrat:"  + kwadrat1.obliczPolePowierzchni());
 
 
 
