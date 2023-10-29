@@ -9,6 +9,7 @@ public class Main {
         System.out.println("  ");
         samochodOsobowy.wyswietlIformacje();
 
+
         System.out.println("  ");
         System.out.println("  ");
 
