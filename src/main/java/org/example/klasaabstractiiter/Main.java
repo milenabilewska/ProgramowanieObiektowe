@@ -7,13 +7,40 @@ public class Main {
         Ksztalt kolo = new Kolo("Czerwony" , 2.0);
         Ksztalt kwadrat = new Kwadrat("Czarny", 2.22);
 
+        kolo.wyswietlInformacje();
+        System.out.println("");
+        System.out.println(" pole powierzchni kola: " + kolo.obliczPolePowierzchni());
+
+        System.out.println("");
+        System.out.println("");
+        kwadrat.wyswietlInformacje();
+        System.out.println("");
+        System.out.println("pole powierzchni kwadrat:"  + kwadrat.obliczPolePowierzchni());
+
+
+        System.out.println("");
+        System.out.println("");
+        System.out.println("");
+
+        Ksztalt kolo1 = new Kolo("Zelony" , 2.0);
+        Ksztalt kwadrat1 = new Kwadrat("Niebieski", 2.22);
+
+        kolo.wyswietlInformacje();
+        System.out.println("");
+        System.out.println(" pole powierzchni kola: " + kolo.obliczPolePowierzchni());
+
+        System.out.println("");
+        System.out.println("");
+        kwadrat.wyswietlInformacje();
+        System.out.println("");
+        System.out.println("pole powierzchni kwadrat:"  + kwadrat.obliczPolePowierzchni());
 
 
 
+        Ksztalt trojkat = new Trojkat("Zelony");
+        trojkat.wyswietlInformacje();
 
-
-
-
+        trojkat.obliczPolePowierzchni();
 
 
 
