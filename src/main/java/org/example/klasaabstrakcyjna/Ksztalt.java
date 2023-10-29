@@ -1,4 +1,4 @@
-package org.example.klasaabstractiiter;
+package org.example.klasaabstrakcyjna;
 
 public abstract class Ksztalt {
     protected String kolor;
