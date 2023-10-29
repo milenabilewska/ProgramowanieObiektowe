@@ -7,6 +7,8 @@ public abstract class Ksztalt {
         this.kolor = kolor;
     }
 
+
+
     //deklaracja metody abstrakcyjnej(brak implementacji)
     public abstract double obliczPolePowierzchni();
     //  public abstract double obliczObwod();
