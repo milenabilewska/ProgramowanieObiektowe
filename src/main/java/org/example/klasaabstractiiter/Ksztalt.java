@@ -9,6 +9,7 @@ public abstract class Ksztalt {
 
     //deklaracja metody abstrakcyjnej(brak implementacji)
     public abstract double obliczPolePowierzchni();
+    public abstract double obliczObwod();
 
 
     //metoda zwykla (zawierajaca implementacje)

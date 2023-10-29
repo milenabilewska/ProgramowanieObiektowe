@@ -17,5 +17,10 @@ public class Kolo  extends  Ksztalt {
         return Math.PI * promien * promien;
     }
 
+    @Override
+    public double obliczObwod() {
+        return 0;
+    }
+
 
 }

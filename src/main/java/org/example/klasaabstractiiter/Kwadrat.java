@@ -15,5 +15,11 @@ public class Kwadrat  extends  Ksztalt{
         return a * a;
     }
 
+    @Override
+    public double obliczObwod() {
+        return 0;
+    }
+
+
 
 }
