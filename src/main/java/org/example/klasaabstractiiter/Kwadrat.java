@@ -4,7 +4,6 @@ public class Kwadrat  extends  Ksztalt{
 
     private  double a;
 
-    //   public Kwadrat() {    }
 
     public Kwadrat(String kolor, double a) {
         super(kolor);

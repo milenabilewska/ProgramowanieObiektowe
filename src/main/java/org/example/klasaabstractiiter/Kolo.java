@@ -4,7 +4,7 @@ public class Kolo  extends  Ksztalt {
 
     private  double promien ;
 
-  //  public Kolo() {}
+
 
     public Kolo(String kolor, double promien) {
         super(kolor);
