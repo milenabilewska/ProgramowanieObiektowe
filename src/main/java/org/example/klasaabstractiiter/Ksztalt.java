@@ -1,6 +1,6 @@
 package org.example.klasaabstractiiter;
 
-abstract class Ksztalt {
+public abstract class Ksztalt {
     protected String kolor;
 
     public Ksztalt(String kolor) {
@@ -15,7 +15,8 @@ abstract class Ksztalt {
 
     public void wyswietlInformacje(){
 
-        System.out.println("Ksztalt ");
+        System.out.println("Ksztalt " + getClass().getSimpleName());
+        System.out.println(" Kolor " + kolor);
 
     }
 
