@@ -11,10 +11,10 @@ public class Trojkat extends  Ksztalt {
         return 0;
     }
 
-    @Override
-    public double obliczObwod() {
-        return 0;
-    }
+//    @Override
+//    public double obliczObwod() {
+//        return 0;
+//    }
 
 
 }

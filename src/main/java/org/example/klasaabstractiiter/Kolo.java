@@ -2,7 +2,7 @@ package org.example.klasaabstractiiter;
 
 public class Kolo  extends  Ksztalt {
 
-    private  double promien ;
+    private final double promien ;
 
 
 
@@ -17,10 +17,10 @@ public class Kolo  extends  Ksztalt {
         return Math.PI * promien * promien;
     }
 
-    @Override
-    public double obliczObwod() {
-        return 0;
-    }
+//    @Override
+//    public double obliczObwod() {
+//        return 0;
+//    }
 
 
 }

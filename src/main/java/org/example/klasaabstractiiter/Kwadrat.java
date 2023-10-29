@@ -2,7 +2,7 @@ package org.example.klasaabstractiiter;
 
 public class Kwadrat  extends  Ksztalt{
 
-    private  double a;
+    private  final double a;
 
 
     public Kwadrat(String kolor, double a) {
@@ -15,10 +15,10 @@ public class Kwadrat  extends  Ksztalt{
         return a * a;
     }
 
-    @Override
-    public double obliczObwod() {
-        return 0;
-    }
+//    @Override
+//    public double obliczObwod() {
+//        return 0;
+//    }
 
 
 
