@@ -5,4 +5,6 @@ public interface Ksztalt {
     double obliczObwod();
 
 
+
+
 }
